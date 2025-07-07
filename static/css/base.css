@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* base.css */
 
 /* الأساسيات */
@@ -105,3 +106,112 @@ header {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+=======
+/* base.css */
+
+/* الأساسيات */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  font-family: 'Cairo', sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  min-height: 100vh;
+  font-family: 'Cairo', sans-serif;
+  direction: rtl;
+}
+
+/* الهيدر */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+}
+
+.user-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.user-nav nav {
+  display: flex;
+  gap: 15px;
+  position: relative;
+}
+
+.user-nav nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* صورة المستخدم */
+.user-nav img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* القائمة المنسدلة */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  padding: 0;
+  font-family: inherit;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 180px;
+  right: 0;
+  top: 100%;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+  z-index: 10;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.dropdown-content a:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+>>>>>>> d7023bb44d462afe13064eb16464741bb8208045

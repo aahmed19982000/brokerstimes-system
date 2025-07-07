@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .holiday-container {
     max-width: 800px;
     margin: auto;
@@ -44,3 +45,51 @@ h1, h2 {
 .holiday-form button:hover {
     background-color: #45a049;
 }
+=======
+.holiday-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    direction: rtl;
+    font-family: "Cairo", sans-serif;
+}
+
+h1, h2 {
+    color: #333;
+    margin-top: 40px;
+}
+
+.holiday-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.holiday-table th,
+.holiday-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: right;
+}
+
+.holiday-table th {
+    background-color: #f9f9f9;
+}
+
+.holiday-form {
+    margin-bottom: 40px;
+}
+
+.holiday-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.holiday-form button:hover {
+    background-color: #45a049;
+}
+>>>>>>> d7023bb44d462afe13064eb16464741bb8208045
