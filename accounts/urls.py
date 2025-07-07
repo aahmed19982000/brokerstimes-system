@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from django.urls import path
 from . import views
 from .views import mark_notification_as_read, delete_notification
@@ -15,7 +15,7 @@ urlpatterns = [
     path('notifications/<int:notification_id>/delete/', delete_notification, name='delete_notification'),
 
 ]
-=======
+
 from django.urls import path
 from . import views
 from .views import mark_notification_as_read, delete_notification
@@ -32,4 +32,4 @@ urlpatterns = [
     path('notifications/<int:notification_id>/delete/', delete_notification, name='delete_notification'),
 
 ]
->>>>>>> d7023bb44d462afe13064eb16464741bb8208045
+

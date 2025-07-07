@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from django.db import models
 from django.conf import settings
 from  categories.models import Site , Article_type_U_N ,Article_type_W_R_A_B
@@ -20,7 +20,7 @@ class Task(models.Model):
 
     def __str__(self):
         return self.article_title
-=======
+
 from django.db import models
 from django.conf import settings
 from  categories.models import Site , Article_type_U_N ,Article_type_W_R_A_B
@@ -42,4 +42,4 @@ class Task(models.Model):
 
     def __str__(self):
         return self.article_title
->>>>>>> d7023bb44d462afe13064eb16464741bb8208045
+

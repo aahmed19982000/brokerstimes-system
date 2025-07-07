@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 """
 WSGI config for myproject project.
 
@@ -15,7 +15,7 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myproject.settings')
 
 application = get_wsgi_application()
-=======
+
 """
 WSGI config for myproject project.
 
@@ -32,4 +32,4 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myproject.settings')
 
 application = get_wsgi_application()
->>>>>>> d7023bb44d462afe13064eb16464741bb8208045
+

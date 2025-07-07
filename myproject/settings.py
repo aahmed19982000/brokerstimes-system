@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 Django settings for myproject project.
 
@@ -139,7 +138,7 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-=======
+
 """
 Django settings for myproject project.
 
@@ -280,4 +279,3 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
->>>>>>> d7023bb44d462afe13064eb16464741bb8208045

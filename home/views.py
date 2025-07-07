@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from django.shortcuts import render 
 from django.contrib.auth.decorators import login_required 
 from django.urls import reverse_lazy
@@ -99,7 +99,7 @@ def employee_dashboard(request):
         'todays_tasks': todays_tasks,
         'overdue_tasks': overdue_tasks,
         
-=======
+
 from django.shortcuts import render 
 from django.contrib.auth.decorators import login_required 
 from django.urls import reverse_lazy
@@ -200,5 +200,5 @@ def employee_dashboard(request):
         'todays_tasks': todays_tasks,
         'overdue_tasks': overdue_tasks,
         
->>>>>>> d7023bb44d462afe13064eb16464741bb8208045
+
     })

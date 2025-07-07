@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import Task
 from .forms import TaskForm
@@ -177,7 +177,7 @@ def task_details(request, task_id):
     return render(request, 'tasks/task_details.html', {'task': task})
 
 
-=======
+
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import Task
 from .forms import TaskForm
@@ -356,4 +356,4 @@ def task_details(request, task_id):
     return render(request, 'tasks/task_details.html', {'task': task})
 
 
->>>>>>> d7023bb44d462afe13064eb16464741bb8208045
+

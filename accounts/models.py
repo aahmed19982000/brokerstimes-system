@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # models.py
 from django.contrib.auth.models import User , AbstractUser
 from django.db import models
@@ -25,7 +25,7 @@ class Notification(models.Model):
         ordering = ['-created_at']
 
     def __str__(self):
-=======
+
 # models.py
 from django.contrib.auth.models import User , AbstractUser
 from django.db import models
@@ -52,5 +52,5 @@ class Notification(models.Model):
         ordering = ['-created_at']
 
     def __str__(self):
->>>>>>> d7023bb44d462afe13064eb16464741bb8208045
+
         return f"To: {self.user.username} - {self.message[:30]}"

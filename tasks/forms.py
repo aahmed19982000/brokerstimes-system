@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from django import forms
 from .models import Task
 from accounts.models import Users  
@@ -35,7 +35,7 @@ class TaskForm(forms.ModelForm):
         if commit:
             task.save()
         return task
-=======
+
 from django import forms
 from .models import Task
 from accounts.models import Users  
@@ -72,4 +72,4 @@ class TaskForm(forms.ModelForm):
         if commit:
             task.save()
         return task
->>>>>>> d7023bb44d462afe13064eb16464741bb8208045
+

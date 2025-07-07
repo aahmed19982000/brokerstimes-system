@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from django.shortcuts import redirect
 
 def role_required(role_name):
@@ -11,7 +11,7 @@ def role_required(role_name):
             return view_func(request, *args, **kwargs)
         return wrapper
     return decorator
-=======
+
 from django.shortcuts import redirect
 
 def role_required(role_name):
@@ -24,4 +24,4 @@ def role_required(role_name):
             return view_func(request, *args, **kwargs)
         return wrapper
     return decorator
->>>>>>> d7023bb44d462afe13064eb16464741bb8208045
+

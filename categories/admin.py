@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from django.contrib import admin
 from .models import Site, Article_type_U_N ,Article_type_W_R_A_B, Official_holiday, CustomHoliday
 @admin.register(Site)
@@ -19,7 +19,7 @@ class Official_holidayAdmin(admin.ModelAdmin):
 
 @admin.register(CustomHoliday)
 class CustomHolidayAdmin(admin.ModelAdmin):
-=======
+
 from django.contrib import admin
 from .models import Site, Article_type_U_N ,Article_type_W_R_A_B, Official_holiday, CustomHoliday
 @admin.register(Site)
@@ -40,5 +40,5 @@ class Official_holidayAdmin(admin.ModelAdmin):
 
 @admin.register(CustomHoliday)
 class CustomHolidayAdmin(admin.ModelAdmin):
->>>>>>> d7023bb44d462afe13064eb16464741bb8208045
+
     list_display = ['user','reason','date']

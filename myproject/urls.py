@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 """
 URL configuration for myproject project.
 
@@ -37,7 +37,7 @@ urlpatterns = [
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=os.path.join(settings.BASE_DIR, 'static'))
-=======
+
 """
 URL configuration for myproject project.
 
@@ -76,4 +76,4 @@ urlpatterns = [
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=os.path.join(settings.BASE_DIR, 'static'))
->>>>>>> d7023bb44d462afe13064eb16464741bb8208045
+

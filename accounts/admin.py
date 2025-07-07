@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
 from .models import Users
@@ -12,7 +11,6 @@ class CustomUserAdmin(UserAdmin):
     )
 
 admin.site.register(Users, CustomUserAdmin)
-=======
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
 from .models import Users
@@ -26,4 +24,3 @@ class CustomUserAdmin(UserAdmin):
     )
 
 admin.site.register(Users, CustomUserAdmin)
->>>>>>> d7023bb44d462afe13064eb16464741bb8208045

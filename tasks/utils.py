@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from datetime import timedelta
 from .models import Task
 from categories.models import Article_type_W_R_A_B, Site, Official_holiday, CustomHoliday
@@ -66,7 +66,7 @@ def get_valid_publish_date(task_type_wrab, site_name, writer):
         new_date += timedelta(days=1)
 
     return new_date
-=======
+
 from datetime import timedelta
 from .models import Task
 from categories.models import Article_type_W_R_A_B, Site, Official_holiday, CustomHoliday
@@ -134,4 +134,4 @@ def get_valid_publish_date(task_type_wrab, site_name, writer):
         new_date += timedelta(days=1)
 
     return new_date
->>>>>>> d7023bb44d462afe13064eb16464741bb8208045
+

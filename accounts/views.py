@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import Users, Notification
 from django.contrib import messages
@@ -131,7 +131,7 @@ def delete_notification(request, notification_id):
     except Notification.DoesNotExist:
         return JsonResponse({'success': False, 'error': 'Not found'})
     
-=======
+
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import Users, Notification
 from django.contrib import messages
@@ -264,4 +264,4 @@ def delete_notification(request, notification_id):
     except Notification.DoesNotExist:
         return JsonResponse({'success': False, 'error': 'Not found'})
     
->>>>>>> d7023bb44d462afe13064eb16464741bb8208045
+

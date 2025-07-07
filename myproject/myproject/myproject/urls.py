@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 """
 URL configuration for myproject project.
 
@@ -21,7 +21,7 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
-=======
+
 """
 URL configuration for myproject project.
 
@@ -44,4 +44,4 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
->>>>>>> d7023bb44d462afe13064eb16464741bb8208045
+

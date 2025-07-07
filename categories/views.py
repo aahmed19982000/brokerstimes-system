@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from django.shortcuts import render, get_object_or_404, redirect
 from .models import Site, Official_holiday ,CustomHoliday 
 from accounts.decorators import role_required
@@ -64,7 +64,7 @@ def holiday(request):
         'custom_holidays': custom_holidays,
         'official_form': official_form,
         'custom_form': custom_form,
-=======
+
 from django.shortcuts import render, get_object_or_404, redirect
 from .models import Site, Official_holiday ,CustomHoliday 
 from accounts.decorators import role_required
@@ -130,5 +130,5 @@ def holiday(request):
         'custom_holidays': custom_holidays,
         'official_form': official_form,
         'custom_form': custom_form,
->>>>>>> d7023bb44d462afe13064eb16464741bb8208045
+
     })

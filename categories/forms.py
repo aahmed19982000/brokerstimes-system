@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from django import forms
 from .models import Site, Official_holiday, CustomHoliday
 
@@ -15,7 +15,7 @@ class Official_holidayForm(forms.ModelForm):
 class CustomHolidayForm(forms.ModelForm):
     class Meta:
         model = CustomHoliday
-=======
+
 from django import forms
 from .models import Site, Official_holiday, CustomHoliday
 
@@ -32,5 +32,5 @@ class Official_holidayForm(forms.ModelForm):
 class CustomHolidayForm(forms.ModelForm):
     class Meta:
         model = CustomHoliday
->>>>>>> d7023bb44d462afe13064eb16464741bb8208045
+
         fields = ['user','reason','date']

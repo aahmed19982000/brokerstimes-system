@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from django.db import models
 from django.utils import timezone
 from django.conf import settings
@@ -45,7 +45,7 @@ class CustomHoliday(models.Model):
         unique_together = ('user', 'date')  
 
     def __str__(self):
-=======
+
 from django.db import models
 from django.utils import timezone
 from django.conf import settings
@@ -92,5 +92,5 @@ class CustomHoliday(models.Model):
         unique_together = ('user', 'date')  
 
     def __str__(self):
->>>>>>> d7023bb44d462afe13064eb16464741bb8208045
+
         return f"{self.user.username} - {self.date}"

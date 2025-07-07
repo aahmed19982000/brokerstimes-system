@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from django.urls import path
 from . import views
 from django.contrib.auth import views as auth_views
@@ -18,7 +18,7 @@ urlpatterns = [
 
     
 ]
-=======
+
 from django.urls import path
 from . import views
 from django.contrib.auth import views as auth_views
@@ -38,4 +38,4 @@ urlpatterns = [
 
     
 ]
->>>>>>> d7023bb44d462afe13064eb16464741bb8208045
+
